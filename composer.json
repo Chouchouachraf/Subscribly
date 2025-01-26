@@ -1,0 +1,15 @@
+{
+    "name": "subscribly/subscription-manager",
+    "description": "A subscription management system",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "phpmailer/phpmailer": "^6.8",
+        "sendgrid/sendgrid": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Subscribly\\": "includes/"
+        }
+    }
+}
